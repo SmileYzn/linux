@@ -67,7 +67,6 @@ gvfs-mtp \
 gvfs-nfs \
 gvfs-smb \
 gvfs-wsdd \
-ntfs-3g \
 adobe-source-code-pro-fonts \
 adobe-source-sans-fonts \
 adobe-source-serif-fonts \
