@@ -22,14 +22,6 @@ cd "$HOME" || exit 1
 sudo pacman -Syu --needed --noconfirm
 
 # Pacotes Base
-# Pacotes XDG Desktop e User Dirs
-# CIFS, EXFAT, GVFS, NTFS
-# Fontes adicionais
-# XFCE4 Plugins
-# Thunar
-# Firefox
-# GStreamer
-# Programas Extras
 sudo pacman -S --needed --noconfirm \
 7zip \
 alsa-firmware \
@@ -52,12 +44,18 @@ unzip \
 unrar \
 xiccd \
 xz \
-zip \
+zip
+
+# Pacotes XDG Desktop e User Dirs
+sudo pacman -S --needed --noconfirm \
 xdg-user-dirs \
 xdg-user-dirs-gtk \
 xdg-desktop-portal \
 xdg-desktop-portal-gtk \
-xdg-utils \
+xdg-utils
+
+# CIFS, EXFAT, GVFS
+sudo pacman -S --needed --noconfirm \
 cifs-utils \
 exfat-utils \
 gvfs \
@@ -66,7 +64,11 @@ gvfs-goa \
 gvfs-mtp \
 gvfs-nfs \
 gvfs-smb \
-gvfs-wsdd \
+gvfs-wsdd
+
+
+# Fontes adicionais
+sudo pacman -S --needed --noconfirm \
 adobe-source-code-pro-fonts \
 adobe-source-sans-fonts \
 adobe-source-serif-fonts \
@@ -82,25 +84,40 @@ ttf-fira-sans \
 ttf-opensans \
 ttf-roboto \
 ttf-roboto-mono \
-ttf-ubuntu-font-family \
+ttf-ubuntu-font-family
+
+# XFCE4 Plugins
+sudo pacman -S --needed --noconfirm \
 xfce4-goodies \
 xfce4-docklike-plugin \
 xfce4-mixer \
 xfce4-panel-profiles \
 xfce4-volumed-pulse \
-xfce4-windowck-plugin \
+xfce4-windowck-plugin
+
+# Thunar
+sudo pacman -S --needed --noconfirm \
 thunar-media-tags-plugin \
 thunar-archive-plugin \
 thunar-shares-plugin \
-thunar-volman \
+thunar-volman
+
+# Firefox
+sudo pacman -S --needed --noconfirm \
 firefox \
-firefox-i18n-pt-br \
+firefox-i18n-pt-br
+
+# GStreamer
+sudo pacman -S --needed --noconfirm \
 gstreamer \
 gst-libav \
 gst-plugins-base \
 gst-plugins-good \
 gst-plugins-bad \
-gst-plugins-ugly \
+gst-plugins-ugly
+
+# Programas Extras
+sudo pacman -S --needed --noconfirm \
 catfish \
 galculator \
 gcolor3 \
