@@ -40,9 +40,9 @@ sudo cp -r "$HOME/qogir-theme-openbox/Qogir-Dark" /usr/share/themes/
 sudo cp -r "$HOME/qogir-theme-openbox/Qogir-Light" /usr/share/themes/
 
 # Remover pastas
-rm -rf "$HOME/Qogir-theme"
-rm -rf "$HOME/Qogir-icon-theme"
-rm -rf "$HOME/qogir-theme-openbox"
+sudo rm -rf "$HOME/Qogir-theme"
+sudo rm -rf "$HOME/Qogir-icon-theme"
+sudo rm -rf "$HOME/qogir-theme-openbox"
 
 # Sucesso
 echo "Qogir instalado com sucesso!"
