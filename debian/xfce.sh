@@ -127,6 +127,7 @@ lightdm-gtk-greeter-settings \
 mugshot \
 orage \
 parole \
+ristretto \
 seahorse
 
 # Bluetooth
