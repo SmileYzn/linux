@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#################################################
+# Debian 13 Trixie (Pós Instalação) para XFCE
+#################################################
+
 # Erros
 set -e
 
@@ -44,8 +48,8 @@ sudo apt full-upgrade -y
 # Pacotes Base
 sudo apt install -y --no-upgrade \
 7zip \
-alsa-firmware \
 bash-completion \
+blueman \
 bluez \
 cifs-utils \
 curl \
@@ -83,7 +87,6 @@ zip
 # Fontes adicionais
 sudo apt install -y --no-upgrade \
 fonts-adobe-sourcesans3 \
-fonts-adwaita \
 fonts-dejavu \
 fonts-firacode \
 fonts-noto \
@@ -98,6 +101,7 @@ xfce4-goodies \
 xfce4-docklike-plugin \
 xfce4-panel-profiles \
 xfce4-power-manager \
+xfce4-screensaver \
 xfce4-windowck-plugin
 
 # Thunar
