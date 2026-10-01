@@ -71,7 +71,6 @@ intel-media-va-driver-non-free \
 libavcodec-extra \
 libavformat-extra \
 man-db \
-ntfs-3g \
 power-profiles-daemon \
 powertop \
 unace \
