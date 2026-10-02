@@ -34,6 +34,7 @@ fwupd \
 ffmpeg \
 ffmpegthumbnailer \
 git \
+gnome-keyring \
 numlockx \
 power-profiles-daemon \
 powertop \
@@ -121,11 +122,11 @@ sudo pacman -S --needed --noconfirm \
 catfish \
 galculator \
 gcolor3 \
-gthumb \
 lightdm-gtk-greeter-settings \
 mugshot \
 orage \
 parole \
+ristretto \
 seahorse
 
 # Atualizar o chace de fontes
