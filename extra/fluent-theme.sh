@@ -23,15 +23,15 @@ git clone https://github.com/vinceliuice/Fluent-gtk-theme.git
 git clone https://github.com/vinceliuice/Fluent-icon-theme.git
 
 # Instalar Tema
-sudo sh "$HOME/Fluent-gtk-theme/install.sh" --icon arch --size standard --tweaks solid
-sh "$HOME/Fluent-gtk-theme/install.sh" --icon arch --size standard --tweaks solid
-sh "$HOME/Fluent-gtk-theme/install.sh" --icon arch --size standard --tweaks solid
+sudo bash "$HOME/Fluent-gtk-theme/install.sh" --icon arch --size standard --tweaks solid
+bash "$HOME/Fluent-gtk-theme/install.sh" --icon arch --size standard --tweaks solid
+bash "$HOME/Fluent-gtk-theme/install.sh" --icon arch --size standard --tweaks solid
 
 # Instalar Icones
-sudo sh "$HOME/Fluent-icon-theme/install.sh"
+sudo bash "$HOME/Fluent-icon-theme/install.sh"
 
 # Instalar Cursores
-sudo sh "$HOME/Fluent-icon-theme/cursors/install.sh"
+sudo bash "$HOME/Fluent-icon-theme/cursors/install.sh"
 
 # Remover pastas
 sudo rm -rf Fluent-gtk-theme
