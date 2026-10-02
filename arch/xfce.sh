@@ -67,7 +67,6 @@ gvfs-nfs \
 gvfs-smb \
 gvfs-wsdd
 
-
 # Fontes adicionais
 sudo pacman -S --needed --noconfirm \
 adobe-source-code-pro-fonts \
@@ -77,11 +76,13 @@ noto-fonts \
 noto-fonts-cjk \
 noto-fonts-emoji \
 noto-fonts-extra \
+ttf-bitstream-vera \
 ttf-dejavu \
 ttf-droid \
 ttf-fira-code \
 ttf-fira-mono \
 ttf-fira-sans \
+ttf-liberation \
 ttf-opensans \
 ttf-roboto \
 ttf-roboto-mono \
