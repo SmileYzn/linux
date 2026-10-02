@@ -75,11 +75,13 @@ noto-fonts \
 noto-fonts-cjk \
 noto-fonts-emoji \
 noto-fonts-extra \
+ttf-bitstream-vera \
 ttf-dejavu \
 ttf-droid \
 ttf-fira-code \
 ttf-fira-mono \
 ttf-fira-sans \
+ttf-liberation \
 ttf-opensans \
 ttf-roboto \
 ttf-roboto-mono \
@@ -122,6 +124,7 @@ bulky \
 cinnamon-translations \
 file-roller \
 gnome-calculator \
+gnome-keyring \
 gnome-system-monitor \
 gthumb \
 mpv \
