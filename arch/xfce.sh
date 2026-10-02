@@ -34,7 +34,6 @@ fwupd \
 ffmpeg \
 ffmpegthumbnailer \
 git \
-gnome-keyring \
 numlockx \
 power-profiles-daemon \
 powertop \
@@ -123,6 +122,7 @@ sudo pacman -S --needed --noconfirm \
 catfish \
 galculator \
 gcolor3 \
+gnome-keyring \
 lightdm-gtk-greeter-settings \
 mugshot \
 orage \
