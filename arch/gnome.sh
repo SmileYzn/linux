@@ -34,7 +34,6 @@ fwupd \
 ffmpeg \
 ffmpegthumbnailer \
 git \
-numlockx \
 power-profiles-daemon \
 powertop \
 reflector \
@@ -42,7 +41,6 @@ udisks2 \
 unace \
 unzip \
 unrar \
-xiccd \
 xz \
 zip
 
