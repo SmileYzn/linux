@@ -27,7 +27,6 @@ sudo pacman -S --needed --noconfirm \
 alsa-firmware \
 base-devel \
 bash-completion \
-blueman \
 bluez \
 fastfetch \
 fwupd \
