@@ -91,7 +91,6 @@ ttf-ubuntu-font-family
 sudo pacman -S --needed --noconfirm \
 xfce4-goodies \
 xfce4-docklike-plugin \
-xfce4-mixer \
 xfce4-panel-profiles \
 xfce4-volumed-pulse \
 xfce4-windowck-plugin
