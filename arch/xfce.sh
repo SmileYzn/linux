@@ -119,10 +119,9 @@ gst-plugins-ugly
 # Programas Extras
 sudo pacman -S --needed --noconfirm \
 catfish \
-gcolor3 \
+galculator \
 gnome-keyring \
 lightdm-gtk-greeter-settings \
-mate-calc \
 mugshot \
 orage \
 parole \
