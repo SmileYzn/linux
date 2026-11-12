@@ -95,7 +95,7 @@ ttf-ubuntu-font-family
 sudo pacman -S --needed --noconfirm \
 galculator \
 gcolor3 \
-iso-codes\
+iso-codes \
 l3afpad \
 libnotify \
 lightdm \
@@ -119,13 +119,6 @@ sudo systemctl enable lightdm
 
 # Habilitar notification Daemon
 sudo cp /usr/share/applications/notification-daemon.desktop /etc/xdg/autostart/
-
-# Adwaita
-sudo pacman -S --needed --noconfirm \
-adwaita-cursors \
-adwaita-fonts \
-adwaita-icon-theme \
-adwaita-icon-theme-legacy
 
 # Firefox
 sudo pacman -S --needed --noconfirm \
