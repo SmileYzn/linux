@@ -57,7 +57,7 @@ xdg-utils
 # CIFS, EXFAT, GVFS
 sudo pacman -S --needed --noconfirm \
 cifs-utils \
-exfat-utils \
+exfatprogs \
 gvfs \
 gvfs-dnssd \
 gvfs-goa \
