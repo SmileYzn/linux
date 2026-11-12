@@ -27,7 +27,7 @@ sudo pacman -S --needed --noconfirm \
 alsa-firmware \
 base-devel \
 bash-completion \
-bluez \
+bluez \e
 fastfetch \
 fwupd \
 ffmpeg \
