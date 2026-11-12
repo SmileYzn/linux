@@ -95,6 +95,7 @@ ttf-ubuntu-font-family
 sudo pacman -S --needed --noconfirm \
 galculator \
 gcolor3 \
+gnome-keyring \
 iso-codes \
 l3afpad \
 libnotify \
